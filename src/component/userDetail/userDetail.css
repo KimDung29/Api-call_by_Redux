@@ -1,0 +1,149 @@
+h2 {
+  padding: 10px 0 0 50px;
+}
+.showDetail {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 10px 50px;
+}
+.showDetailUser {
+  margin: 10px 0;
+}
+h3 {
+  color: #0dcaf0;
+}
+.user_detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user_title {
+  flex: 1;
+  margin: 8px 0 0 0;
+}
+.user_fw {
+  font-weight: 600;
+  margin: 8px 0 0 0;
+  flex: 2;
+}
+.leftSide {
+  flex: 1;
+  margin-right: 30px;
+}
+.rightSide {
+  flex: 1;
+  margin-top: 23px;
+}
+.button {
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 10px 0 0;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.editBtn {
+  background-color: #198754;
+  border: 1px solid #198754;
+}
+.resetBtn {
+  background-color: red;
+  border: 1px solid red;
+
+  position: absolute;
+  top: 85%;
+  left: 90px;
+}
+.submitBtn {
+  background-color: rgba(0, 128, 0, 0.665);
+  border: 1px solid rgba(0, 128, 0, 0.665);
+  width: 70px;
+}
+
+.editContactForm {
+  position: relative;
+}
+
+.editContactForm form {
+  display: flex;
+  flex-direction: column;
+}
+.editContactForm label {
+  padding: 10px 0 5px 0;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.editContactForm input {
+  width: 50%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.photoAlbum {
+  padding: 5px 50px;
+}
+.photoAlbum input {
+  padding: 15px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.newAlbumBtn {
+  background-color: #198754;
+  border: 1px solid #198754;
+  padding: 12px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.showPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.listNewAlbum {
+  width: 40vw;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding: 5px;
+}
+
+.idList {
+  flex: 0.3;
+}
+.idList span {
+  border-right: 1px solid #ccc;
+  padding: 8px;
+}
+.listNewAlbum_title {
+  flex: 3;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 8px;
+}
+.listNewAlbum_title span {
+}
+.iconClose {
+  cursor: pointer;
+}
+.fas {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  float: right;
+}
+input {
+  border: 1px solid #ccc;
+}

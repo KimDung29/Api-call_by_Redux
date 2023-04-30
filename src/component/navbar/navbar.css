@@ -1,0 +1,13 @@
+.nav {
+  background-color: #212529;
+  height: 50px;
+}
+.nav p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin: auto 20px auto 50px;
+}
+.nav p:hover {
+  cursor: pointer;
+}

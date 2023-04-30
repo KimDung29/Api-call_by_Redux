@@ -1,0 +1,72 @@
+.wrapperColor {
+  border: 1px solid #ccc;
+  width: 160px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  height: 210px;
+}
+.contentColor {
+  height: 50px;
+  margin: 8px 0;
+}
+.contentColor p {
+  margin: 5px 8px;
+}
+.fw-color-content {
+  font-weight: 600;
+}
+.bgColor {
+  content: "";
+  padding: 65px 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.randomColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.searchField {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px 0 10px 15px;
+}
+.selection select {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.searchInput input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+.searchBtn button {
+  padding: 10px 15px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+}
+.searchBtn button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+.showMore {
+  margin: 0 auto 30px;
+  display: flex;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.showMore:hover {
+  cursor: pointer;
+}
