@@ -1,12 +1,8 @@
 import { useEffect } from "react";
 import { RootState } from "../../redux/reducer";
-import {
-  AppDispatch,
-  fetchPhotosAsync,
-  useAppDispatch,
-  useAppSelector,
-} from "../../redux/store";
+import { AppDispatch, useAppDispatch, useAppSelector } from "../../redux/store";
 import Photos from "../../component/photos/Photos";
+import { fetchPhotosAsync } from "../../redux/photosSlice";
 
 const PhotoPage = () => {
   const dispatch: AppDispatch = useAppDispatch();

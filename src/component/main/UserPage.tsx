@@ -1,12 +1,8 @@
 import { useEffect } from "react";
-import {
-  AppDispatch,
-  fetchUsersAsync,
-  useAppDispatch,
-  useAppSelector,
-} from "../../redux/store";
+import { AppDispatch, useAppDispatch, useAppSelector } from "../../redux/store";
 import { RootState } from "../../redux/reducer";
 import TableUsers from "../tableUser/TableUser";
+import { fetchUsersAsync } from "../../redux/usersSlice";
 
 const UserPage = () => {
   const dispatch: AppDispatch = useAppDispatch();
